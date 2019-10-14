@@ -1,0 +1,6 @@
+from datetime import date
+
+d0 = date(2019, 10, 14)
+d1 = date(2009, 9, 26)
+delta = d0 - d1
+print(delta.days)
